@@ -1,0 +1,92 @@
+:root {
+  --paragraph-font-size: 18px;
+  --primary-color: #f471d1;
+  --secondary-color: #4c1859;
+}
+
+.bg-pink {
+  background: #f471d1;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--primary-color);
+  color: black;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.about-page-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-link,
+.contact-link {
+  padding: 24px 15px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.about-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.story-essay {
+  padding: 20px;
+  font-style: italic;
+  font-size: var(--paragraph-font-size);
+  text-align: center;
+}
+
+#email-link {
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  transition: all 200ms ease-in-out;
+}
+#email-link:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#project-links {
+  padding: 24px 15px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+#project-links:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
